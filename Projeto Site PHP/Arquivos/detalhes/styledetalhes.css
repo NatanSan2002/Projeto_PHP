@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.divseparatoria{background:white; width:100%;}
+.divpreta{background:black; width:100%; padding-top:50px; padding-bottom:50px;}
+.titlegame{color:black; font-size:70px;font-family: 'Roboto', sans-serif;}
+.brancadentro{background: white;width: 100%;padding-top: 20px;padding-bottom: 20px;}
+.tamcapa{width: 435px; margin-left: 20%;} 
+.bnow {margin-left: 11%;width: 600px;margin-bottom:105px;} 
+
+@media only screen and (max-width:1542px){
+    .tamcapa{margin-left: 14%;}
+}
+@media only screen and (max-width:1426px){
+    .tamcapa{margin-left: 8%;}
+}
+@media only screen and (max-width:1322px){
+    .tamcapa{margin-left: 7%;width:404px;}.bnow{width:499px;margin-bottom:116px;}
+}
+
+@media only screen and (max-width:1107px){
+    .bnow{margin-left: 25%;margin-top: 45px;margin-bottom: 34px;}
+    .tamcapa{margin-left:30%;}
+    .divseparatoria{text-align:center;}
+}
+
+@media only screen and (max-width:863px){
+    .bnow{margin-left: 17%;}
+    .tamcapa{margin-left:22%;}
+}
+
+@media only screen and (max-width:679px){
+    .bnow{width:428px;}
+    .tamcapa{width:355px;}
+    .titlegame{font-size: 50px;}
+}
+
+@media only screen and (max-width:530px){
+    .bnow{margin-left: 8%;}
+    .tamcapa{margin-left:16%;}
+}
+
+@media only screen and (max-width:472px){
+    .bnow{margin-left: 8%;}
+    .tamcapa{margin-left:16%;}
+}
+
+@media only screen and (max-width:486px){
+    .bnow{margin-left: 5%; width:90%;}
+    .tamcapa{margin-left:3%; width:95%;}
+}
+
+
+
+
+    

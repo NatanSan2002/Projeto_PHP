@@ -1,0 +1,53 @@
+body{background:rgb(25,27,46);color:white;font-size:22px;
+    padding:0;margin:0;
+    }
+    div#superior{background:rgb(220, 220, 220);width:100%;}
+    div#dentrodiv{background:black; margin-bottom:50px; width:100%; height:50px;}
+    img#logo{width:150px;height:160px; margin-left:30px; }
+    span#cabecalhoinicial{color:white;margin-left:900px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span#cabecalho{color:white;margin-left:80px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span#cabecalho2{color:white;margin-left:80px;font-family: Verdana, Geneva, Tahoma, sans-serif}
+    span#cabecalho3{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif}
+    span#cabecalho4{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif}
+    .buttonlogin{position:absolute; right:120px;top:134px; border-radius: 50%; border:none; 
+        background:rgb(105, 105, 105); width: 50px; height: 30px; color:white;}
+        .buttonregister{position:absolute; right:58px; top:134px; border-radius: 50%; border:none;
+            background:rgb(105, 105, 105); width: 60px; height: 30px; color:white;} 
+    .rodapepag{background: rgb(220, 220, 220); width:100%; height:200px; text-align: center; color:rgb(34, 32, 32);}
+
+    .pesquisabar{border-radius:10%; height:33px; width:350px; position:absolute; left:50px; top:172px;border: 0px solid white;
+    font-size:25px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+    .lupa{height:32px; width:30px; position:relative; left:13px; top:9px;}
+
+    @media only screen and (max-width: 1670px){
+    .buttonlogin{position:absolute; right:120px;top:134px; border-radius: 50%; border:none; 
+    background:rgb(105, 105, 105); width: 50px; height: 30px; color:white;}
+    } 
+    
+    @media only screen and (max-width: 1794px){
+        div#dentrodiv{height:150px;}
+        span#cabecalhoinicial{color:white;margin-left:900px; font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+    span#cabecalho{color:white;margin-left:80px; font-family: Verdana, Geneva, Tahoma, sans-serif; position:relative;top:15px;}
+    span#cabecalho2{color:white;margin-left:80px;font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+    span#cabecalho3{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+    span#cabecalho4{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+        }
+
+        @media only screen and (max-width:986px){
+            span#cabecalhoinicial{margin-left:400px}
+        }
+        @media only screen and (max-width:466px){
+            span#cabecalhoinicial{margin-left:174px}
+            .pesquisabar{width: 150px;}
+        }
+        @media only screen and (max-width:346px){
+            span#cabecalho4 { margin-left: 24px;}
+            img#logo { margin-left: 7px;}
+            .buttonlogin{width:46px;}
+        }
+
+        
+
+    
+        

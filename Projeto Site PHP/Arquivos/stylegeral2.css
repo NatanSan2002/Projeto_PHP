@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{background:rgb(25,27,46);color:white;font-size:22px;
+    padding:0;margin:0;
+    }
+    div#superior{background:rgb(220, 220, 220);width:100%;}
+    div#dentrodiv{background:black; margin-bottom:50px; width:100%; height:50px;}
+    img#logo{width:150px;height:160px; margin-left:30px; }
+    span#cabecalhoinicial{color:white;margin-left:900px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span#cabecalho{color:white;margin-left:80px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    span#cabecalho2{color:white;margin-left:80px;font-family: Verdana, Geneva, Tahoma, sans-serif}
+    span#cabecalho3{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif}
+    span#cabecalho4{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif}
+    .buttonlogin{position:absolute; right:120px;top:129px; border-radius: 50%; border:none; 
+        background:rgb(105, 105, 105); width: 50px; height: 30px; color:white;}
+        .buttonregister{position:absolute; right:49px; top:129px; border-radius: 50%; border:none;
+            background:rgb(105, 105, 105); width: 69px; height: 30px; color:white;} 
+    .rodapepag{background: rgb(220, 220, 220); width:100%; height:200px; text-align: center; color:rgb(34, 32, 32);}
+
+    @media only screen and (max-width: 1670px){
+    .buttonlogin{position:absolute; right:120px;top:129px; border-radius: 50%; border:none; 
+    background:rgb(105, 105, 105); width: 50px; height: 30px; color:white;}
+    }
+
+    .divimgplataforma{
+        background-image: url("imgs/imglancamento1.png"); 
+        background-color: #cccccc;
+        width:100%; height:450px;
+        
+    }
+    .txtimgplataforma{
+        font-size:94px; font-family: 'Staatliches', cursive;
+        position:absolute; top:400px; left:730px; color:white; 
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #000;
+        
+    }
+    
+    @media only screen and (max-width: 1350px) {.txtimgplataforma{ position:absolute; top:400px; left:100px; color:red;}
+    }
+
+
+.lupa{height:32px; width:30px; position:relative; left:13px; top:9px;}
+
+.pesquisabar{border-radius:10%; height:33px; width:350px; position:absolute; left:50px; top:172px;border: 0px solid white;
+    font-size:25px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+    @media only screen and (max-width: 1794px){
+        div#dentrodiv{height:150px;}
+        span#cabecalhoinicial{color:white;margin-left:900px; font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+    span#cabecalho{color:white;margin-left:80px; font-family: Verdana, Geneva, Tahoma, sans-serif; position:relative;top:15px;}
+    span#cabecalho2{color:white;margin-left:80px;font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+    span#cabecalho3{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+    span#cabecalho4{color:white;margin-left:60px;font-family: Verdana, Geneva, Tahoma, sans-serif;position:relative;top:15px;}
+        }
+
+
+    .itensjogos{background:red; width:100%; height:1000px; position:relative; top:200px;}  
+
+    .catalogojogo{background:black; width:320px; height:390px; margin-left: 50px; margin-right: 50px;}
