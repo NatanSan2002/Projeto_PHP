@@ -16,7 +16,7 @@ Conclusão: É um site que me orgulhei bastante na época mas que hoje, com muit
 
 
 
-<a href="http://loja-true-gaming.epizy.com/index.php" target="_blank"> Link Hospedagem </a>
+Link Hospedagem: http://loja-true-gaming.epizy.com
 
 
 
